@@ -15,6 +15,9 @@
            fetch="https://github.com"
            review="review.msm7x30.org" />
 
+  <remote  name="sam"
+           fetch="https://github.com/aosp-samsung-msm7x30" />
+
   <remote  name="github"
            fetch="https://github.com" />
 
@@ -471,10 +474,8 @@
   <project path="bionic" name="aosp-samsung-msm7x30/android_bionic" groups="pdk" remote="sam" />
   <project path="frameworks/native" name="aosp-samsung-msm7x30/android_frameworks_native" groups="pdk" remote="sam" />
   <project path="vendor/samsung" name="aosp-samsung-msm7x30/android_vendor_samsung-msm7x30" remote="sam" />
-
-  <!-- msm7x30 projects -->
-  <project name="msm7x30/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm7x30" remote="msm7x30" revision="cm-12.1-caf-7x30" />
-  <project name="msm7x30/android_hardware_qcom_display" path="hardware/qcom/display-caf/msm7x30" remote="msm7x30" revision="cm-12.1-caf-7x30" />
-  <project name="msm7x30/android_hardware_qcom_media" path="hardware/qcom/media-caf/msm7x30" remote="msm7x30" revision="cm-12.1-caf-7x30" />
+  <project path="hardware/qcom/audio-caf/msm7x30" name="aosp-samsung-msm7x30/android_hardware_qcom_audio" remote="sam" revision="lp5.1-caf-7x30" />
+  <project path="hardware/qcom/display-caf/msm7x30" name="aosp-samsung-msm7x30/android_hardware_qcom_display" remote="sam" revision="lp5.1-caf-7x30" />
+  <project path="hardware/qcom/media-caf/msm7x30" name="aosp-samsung-msm7x30/android_hardware_qcom_media" remote="sam" revision="lp5.1-caf-7x30" />
 
 </manifest>
