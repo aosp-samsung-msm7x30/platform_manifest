@@ -1,0 +1,38 @@
+[Android Open Source Project](https://github.com/aosp-samsung-msm7x30)
+====================================
+
+NOTE:
+This project is in the development process, Don't sync it.
+Do With Your Own Risk!!!!
+
+Download the Source
+===================
+
+Please read the [AOSP building instructions](http://source.android.com/source/index.html) before proceeding.
+
+Initializing Repository
+-----------------------
+
+    $ repo init -u https://github.com/aosp-samsung-msm7x30/platform_manifest.git -b lp5.1
+
+sync repo :
+
+    $ repo sync
+
+***
+
+Building
+--------
+
+After the sync is finished, please read the [instructions from the Android site](http://s.android.com/source/building.html) on how to build.
+
+    . build/envsetup.sh
+    brunch
+
+
+You can also build (and see how long it took) for specific devices like this:
+
+    . build/envsetup.sh
+    time brunch ancora-userdebug
+
+Remember to `make clobber` every now and then!
