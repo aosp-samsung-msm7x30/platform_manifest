@@ -16,6 +16,7 @@
            review="review.msm7x30.org" />
 
   <remote  name="sam"
+           revision="lp5.1"
            fetch="https://github.com/aosp-samsung-msm7x30" />
 
   <remote  name="github"
@@ -436,7 +437,6 @@
   <project path="external/skia" name="CyanogenMod/android_external_skia" groups="pdk-cw-fs,qcom_msm8x26" remote="cm" />
   <project path="external/stagefright-plugins" name="CyanogenMod/android_external_stagefright-plugins" remote="cm" />
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" groups="pdk" remote="cm" />
-  <project path="frameworks/av" name="CyanogenMod/android_frameworks_av" groups="pdk" remote="cm" />
   <project path="hardware/broadcom/libbt" name="CyanogenMod/android_hardware_broadcom_libbt" groups="pdk" remote="cm" />
   <project path="hardware/broadcom/wlan" name="CyanogenMod/android_hardware_broadcom_wlan" groups="broadcom_wlan" remote="cm" />
   <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" groups="pdk" remote="cm" />
@@ -472,6 +472,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="bionic" name="aosp-samsung-msm7x30/android_bionic" groups="pdk" remote="sam" />
+  <project path="frameworks/av" name="aosp-samsung-msm7x30/android_frameworks_av" groups="pdk" remote="sam" />
   <project path="frameworks/native" name="aosp-samsung-msm7x30/android_frameworks_native" groups="pdk" remote="sam" />
   <project path="vendor/samsung" name="aosp-samsung-msm7x30/android_vendor_samsung-msm7x30" remote="sam" />
   <project path="hardware/qcom/audio-caf/msm7x30" name="aosp-samsung-msm7x30/android_hardware_qcom_audio" remote="sam" revision="lp5.1-caf-7x30" />
