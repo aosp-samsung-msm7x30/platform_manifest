@@ -462,14 +462,14 @@
   <project path="system/vold" name="android_system_vold" groups="pdk" remote="cm" />
 
   <!-- Samsung msm7x30 -->
-  <project path="platform_manifest" name="platform_manifests" remote="sam" />
+  <project path="platform_manifest" name="platform_manifest" remote="sam" />
   <project path="build" name="android_build" groups="pdk,tradefed" remote="sam" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="bionic" name="android_bionic" groups="pdk" remote="sam" />
   <project path="frameworks/av" name="android_frameworks_av" groups="pdk" remote="sam" />
   <project path="frameworks/native" name="android_frameworks_native" groups="pdk" remote="sam" />
-  <project path="vendor/samsung" name="android_vendor_samsung-msm7x30" remote="sam" />
+  <project path="vendor/samsung" name="android_vendor_samsung" remote="sam" />
   <project path="hardware/qcom/audio-caf/msm7x30" name="android_hardware_qcom_audio" remote="sam" revision="lp5.1-caf-7x30" />
   <project path="hardware/qcom/display-caf/msm7x30" name="android_hardware_qcom_display" remote="sam" revision="lp5.1-caf-7x30" />
   <project path="hardware/qcom/media-caf/msm7x30" name="android_hardware_qcom_media" remote="sam" revision="lp5.1-caf-7x30" />
