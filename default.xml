@@ -477,8 +477,8 @@
   <project path="frameworks/base" name="android_frameworks_base" groups="pdk-cw-fs" remote="sam" />
   <project path="frameworks/native" name="android_frameworks_native" groups="pdk" remote="sam" />
   <project path="vendor/samsung" name="android_vendor_samsung" remote="sam" />
-  <project path="hardware/qcom/audio-caf/msm7x30" name="android_hardware_qcom_audio" remote="sam" revision="lp5.1-caf-7x30" />
-  <project path="hardware/qcom/display-caf/msm7x30" name="android_hardware_qcom_display" remote="sam" revision="lp5.1-caf-7x30" />
-  <project path="hardware/qcom/media-caf/msm7x30" name="android_hardware_qcom_media" remote="sam" revision="lp5.1-caf-7x30" />
+  <project path="hardware/qcom/audio-caf/msm7x30" name="android_hardware_qcom_audio" remote="sam" />
+  <project path="hardware/qcom/display-caf/msm7x30" name="android_hardware_qcom_display" remote="sam" />
+  <project path="hardware/qcom/media-caf/msm7x30" name="android_hardware_qcom_media" remote="sam" />
 
 </manifest>
