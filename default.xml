@@ -82,7 +82,6 @@
   <project path="external/chromium_org/third_party/yasm/source/patched-yasm" name="platform/external/chromium_org/third_party/yasm/source/patched-yasm" />
   <project path="external/chromium_org/tools/grit" name="platform/external/chromium_org/tools/grit" />
   <project path="external/chromium_org/tools/gyp" name="platform/external/chromium_org/tools/gyp" />
-  <project path="external/chromium_org/v8" name="platform/external/chromium_org/v8" />
   <project path="external/clang" name="platform/external/clang" groups="pdk" />
   <project path="external/cmockery" name="platform/external/cmockery" />
   <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" />
@@ -396,6 +395,7 @@
   <project path="external/android-visualizer" name="android_external_android-visualizer" remote="cm" />
   <project path="external/busybox" name="android_external_busybox" remote="cm" />
   <project path="external/chromium_org/third_party/boringssl/src" name="android_external_chromium_org_third_party_boringssl_src" remote="cm" />
+  <project path="external/chromium_org/v8" name="android_external_chromium_org_v8" remote="cm" />
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" groups="pdk" remote="cm" />
   <project path="external/exfat" name="android_external_exfat" remote="cm" />
   <project path="external/f2fs-tools" name="android_external_f2fs-tools" groups="pdk" remote="cm" />
