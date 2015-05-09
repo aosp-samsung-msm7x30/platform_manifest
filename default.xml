@@ -274,7 +274,6 @@
   <project path="frameworks/opt/net/ethernet" name="platform/frameworks/opt/net/ethernet" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" groups="pdk-cw-fs" />
   <project path="frameworks/opt/setupwizard" name="platform/frameworks/opt/setupwizard" groups="pdk-cw-fs" />
-  <project path="frameworks/opt/telephony" name="platform/frameworks/opt/telephony" groups="pdk" />
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" groups="pdk-cw-fs" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" groups="pdk-cw-fs" />
   <project path="frameworks/opt/widget" name="platform/frameworks/opt/widget" groups="pdk-cw-fs" />
@@ -414,7 +413,6 @@
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
 
   <!-- CyanogenMod -->
-  <project path="bootable/recovery" name="android_bootable_recovery" groups="pdk" remote="cm" />
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="cm" />
   <project path="external/android-visualizer" name="android_external_android-visualizer" remote="cm" />
   <project path="external/busybox" name="android_external_busybox" remote="cm" />
@@ -462,12 +460,14 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="bionic" name="android_bionic" groups="pdk" remote="sam" />
+  <project path="bootable/recovery" name="android_bootable_recovery" groups="pdk" remote="sam" />
   <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="sam" />
   <project path="packages/apps/InCallUI" name="android_packages_apps_InCallUI" remote="sam" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="sam" />
   <project path="frameworks/av" name="android_frameworks_av" groups="pdk" remote="sam" />
   <project path="frameworks/base" name="android_frameworks_base" groups="pdk-cw-fs" remote="sam" />
   <project path="frameworks/native" name="android_frameworks_native" groups="pdk" remote="sam" />
+  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" groups="pdk" remote="sam" />
   <project path="vendor/aosp" name="android_vendor_aosp" remote="sam" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" groups="pdk" remote="sam" />
   <project path="hardware/qcom/audio-caf/msm7x30" name="android_hardware_qcom_audio" remote="sam" />
