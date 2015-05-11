@@ -264,7 +264,6 @@
   <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" groups="pdk-cw-fs" />
   <project path="frameworks/opt/chips" name="platform/frameworks/opt/chips" groups="pdk-cw-fs" />
   <project path="frameworks/opt/colorpicker" name="platform/frameworks/opt/colorpicker" groups="pdk-cw-fs" />
-  <project path="frameworks/opt/datetimepicker" name="platform/frameworks/opt/datetimepicker" groups="pdk-cw-fs" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" groups="pdk-cw-fs" />
   <project path="frameworks/opt/inputmethodcommon" name="platform/frameworks/opt/inputmethodcommon" groups="pdk-cw-fs" />
   <project path="frameworks/opt/mms" name="platform/frameworks/opt/mms" groups="pdk-cw-fs" />
@@ -288,7 +287,6 @@
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" groups="pdk-cw-fs" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" />
-  <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" />
   <project path="packages/apps/Camera2" name="platform/packages/apps/Camera2" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" groups="pdk-cw-fs" />
@@ -315,7 +313,6 @@
   <project path="packages/experimental" name="platform/packages/experimental" />
   <project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" />
-  <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" groups="pdk-cw-fs" />
   <project path="packages/providers/ContactsProvider" name="platform/packages/providers/ContactsProvider" groups="pdk-cw-fs" />
   <project path="packages/providers/DownloadProvider" name="platform/packages/providers/DownloadProvider" groups="pdk-cw-fs" />
   <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" groups="pdk-cw-fs" />
@@ -449,15 +446,18 @@
   <project path="bionic" name="android_bionic" groups="pdk" remote="sam" />
   <project path="bootable/recovery" name="android_bootable_recovery" groups="pdk" remote="sam" />
   <project path="packages/apps/Browser" name="android_packages_apps_Browser" remote="sam" />
+  <project path="packages/apps/Calendar" name="android_packages_apps_Calendar" remote="sam" />
   <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="sam" />
   <project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" remote="sam" />
   <project path="packages/apps/InCallUI" name="android_packages_apps_InCallUI" remote="sam" />
   <project path="packages/apps/Mms" name="android_packages_apps_Mms" remote="sam" />
   <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="sam" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="sam" />
+  <project path="packages/providers/CalendarProvider" name="android_packages_providers_CalendarProvider" groups="pdk-cw-fs" remote="sam" />
   <project path="frameworks/av" name="android_frameworks_av" groups="pdk" remote="sam" />
   <project path="frameworks/base" name="android_frameworks_base" groups="pdk-cw-fs" remote="sam" />
   <project path="frameworks/native" name="android_frameworks_native" groups="pdk" remote="sam" />
+  <project path="frameworks/opt/datetimepicker" name="android_frameworks_opt_datetimepicker" groups="pdk-cw-fs" remote="sam" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" groups="pdk" remote="sam" />
   <project path="vendor/aosp" name="android_vendor_aosp" remote="sam" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" groups="pdk" remote="sam" />
